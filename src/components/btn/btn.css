@@ -1,0 +1,96 @@
+.add {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    transition: all ease 0.2;
+    cursor: pointer;
+}
+
+.add::before {
+    content: "";
+    position: absolute;
+    height: inherit;
+    width: 1px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    background-color: black;
+}
+
+.add::after {
+    content: "";
+    position: absolute;
+    height: inherit;
+    width: 1px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) ;
+    background-color: black;
+}
+
+.add:hover {
+    transform: scale(1.2);
+}
+
+
+.close {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    top: 1%;
+    right: 0.5%;
+    transition: all ease 0.2;
+    cursor: pointer;
+}
+.close::before {
+    content: "";
+    position: absolute;
+    height: inherit;
+    width: 1px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    background-color: black;
+}
+.close::after {
+    content: "";
+    position: absolute;
+    height: inherit;
+    width: 1px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);;
+    background-color: black;
+}
+
+.close:hover {
+    transform: scale(1.2);
+}
+
+.confirm {
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.confirm:hover {
+    background-color: rgb(5, 71, 5);
+}
+
+.cancle {
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.cancle:hover {
+    background-color: rgb(143, 7, 7);
+}
