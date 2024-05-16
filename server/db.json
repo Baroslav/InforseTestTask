@@ -1,0 +1,52 @@
+{
+  "product": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgpoZDubodK9VXGeHnYABvJL8C4n-jAs_kCvH4QIuTfw&s",
+      "name": "Dress",
+      "count": 4,
+      "size": {
+        "width": "12341234",
+        "height": "12341234"
+      },
+      "weight": "50g",
+      "id": "1"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgpoZDubodK9VXGeHnYABvJL8C4n-jAs_kCvH4QIuTfw&s",
+      "name": "123413344",
+      "count": "12341234",
+      "size": {
+        "width": "12341234",
+        "height": "12341234"
+      },
+      "weight": "123412341",
+      "id": "2"
+    }
+  ],
+  "comments": [
+    {
+      "id": "2",
+      "productId": 2,
+      "description": "Great prod",
+      "date": "2021-08-24"
+    },
+    {
+      "id": "16.05.2024, 01:32:16",
+      "productId": "1",
+      "description": "1111111111",
+      "date": "16.05.2024, 01:32:16"
+    },
+    {
+      "id": "16.05.2024, 01:51:13",
+      "productId": "2",
+      "description": "1",
+      "date": "16.05.2024, 01:51:13"
+    },
+    {
+      "id": "16.05.2024, 01:51:40",
+      "productId": "2",
+      "description": "1",
+      "date": "16.05.2024, 01:51:40"
+    }
+  ]
+}
